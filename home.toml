@@ -1,0 +1,15 @@
+[home]
+location = "New York"
+area_sqft = 2500
+
+[devices]
+number = 40
+thermostat = { model = "Nest", version = "3.0" }
+lights = { living_room = "Philips Hue", kitchen = "LIFX" }
+security = { cameras = ["FrontDoor", "BackYard"], alarm = "Ring" }
+total_devices_expression_problem = "1 2 number + +"
+
+[automation]
+morning_routine = { time = "07:00", actions = ["Turn on lights", "Set thermostat to 72"] }
+night_routine = { time = "22:00", actions = ["Turn off lights", "Set thermostat to 68", "Lock doors"] }
+

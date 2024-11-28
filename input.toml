@@ -1,0 +1,22 @@
+[inputs]
+stringa = "Some string"
+stringb = "Another string"
+
+arraya = [3, 2, 1, 5, 4]
+arrayb = ["one", "two", "three"]
+
+consta = 42
+constb = "Const String"
+[problems]
+problema = "3 4 +"
+problemb = "3 2 1 5 4 sort()"
+problemc = "3 2 1 sort() 5 + +"
+problemd = "consta 3 +"
+
+[dictionarya]
+keya = "value1"
+keyb = "value2"
+
+[dictionaryb]
+keya = 10
+keyb = 20
